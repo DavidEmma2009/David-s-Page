@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.logolink img{
+    height: 50px;
+}
+
+.navigation{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid red;
+}
+
+.section1{
+display: flex;
+padding: 5em;
+align-items: center;
+justify-content: space-around;
+border-bottom: 1px solid red;
+}
+
+.section1img{
+    height: 25em;
+}
+
+.sec1 h3{
+    font-size: 3.5em;
+    font-weight: 800;
+}
+
+.sec1 p{
+    width: 25em;
+    font-size: 1.2em;
+}
+
+.resume{
+    border: 1px solid black;
+    text-decoration: none ;
+    color: white;
+    background-color: red;
+    padding: 5px 25px;
+}
+
+.resume:hover{
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+}
+
+#section2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#section2 h1{
+    font-weight: 800;
+    padding-bottom: 0.2em;
+}
+
+
+.sec2icons i{
+color: red;
+font-size: 2em;
+}
+
+.foot{
+    
+    color: white;
+}
+
+footer{
+    background-color: black;
+    height: 3em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+@media (max-width: 768px){
+    .section1{
+        flex-direction: column;
+    }
+    .sec1{
+        width: 20em;
+    }
+    .sec1 h3{
+        font-size: 2em;
+
+    }
+
+    .sec1 p{
+        width: 16em;
+    }
+    .section1img{
+        height: 18em;
+        margin-top: 0.5em;
+    }
+    footer{
+        text-align: center;
+
+    }
+}
